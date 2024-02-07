@@ -1,8 +1,12 @@
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
+//  const path = require('path'); // Import the path module
 
 const app = express();
+
+// Serve static files from the 'public' directory
+// app.use(express.static(path.join(__dirname, 'public')));
 
 async function scrapeAndyEvents(url) {
     try {
