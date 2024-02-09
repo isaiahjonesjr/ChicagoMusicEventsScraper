@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
-//  const path = require('path'); // Import the path module
+// const path = require('path'); // Import the path module
 
 const app = express();
 
@@ -69,7 +69,7 @@ async function scrapeHungryBrainEvents(url) {
 }
 
 app.get('/', async (req, res) => {
-    try {
+    try {   
         const andyUrl = 'https://andysjazzclub.com/music-calendar/';
         const recordShopUrl = 'https://throughtherecordshop.com/events/';
         const hungryBrainUrl = 'https://hungrybrainchicago.com/calendar/';
