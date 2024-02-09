@@ -14,4 +14,4 @@ This project is a web scraper built with Node.js that fetches and displays upcom
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/isaiahjonesjr/chicago-music-events-scraper.git
+git clone https://github.com/isaiahjonesjr/ChicagoMusicEventsScraper.git
